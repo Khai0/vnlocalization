@@ -1,0 +1,775 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>베트남어 현지화 및 언어 서비스 | VNlocalization</title>
+    <meta
+      name="description"
+      content="글로벌 콘텐츠 팀을 위한 베트남어 번역, LQA, 자막, 더빙 및 보이스오버 서비스."
+    />
+    <meta name="theme-color" content="#172b2a" />
+    <meta property="og:title" content="베트남어 현지화 및 언어 서비스 | VNlocalization" />
+    <meta
+      property="og:description"
+      content="글로벌 콘텐츠 팀을 위한 베트남어 번역, LQA, 자막, 더빙 및 보이스오버 서비스."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="vnlocalization.com" />
+    <link rel="icon" href="/assets/crane-emblem.png" type="image/png" />
+    <link
+      rel="preload"
+      href="/assets/fonts/be-vietnam-pro-latin-600-normal.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="/assets/fonts.css" />
+    <link rel="stylesheet" href="/assets/style.css" />
+    <link rel="stylesheet" href="/assets/theme.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "VNlocalization",
+        "description": "Vietnamese translation, localization, linguistic quality assurance, subtitling, and dubbing.",
+        "url": "https://vnlocalization.com",
+        "email": "info@penguinsgroup.com.vn",
+        "telephone": "+84961003512",
+        "address": { "@type": "PostalAddress", "addressLocality": "Hue", "addressCountry": "VN" }
+      }
+    </script>
+    <script id="locale-data" type="application/json">
+      {
+        "locale": "ko",
+        "strings": {
+          "Open navigation": "메뉴 열기",
+          "Close navigation": "메뉴 닫기",
+          "NATURAL • CONTEXT-AWARE": "자연스러움 · 맥락 반영",
+          "LITERAL • NEEDS CONTEXT": "직역 · 맥락 확인 필요",
+          "An energetic, natural invitation for an action game.": "액션 게임에 어울리는 활기차고 자연스러운 표현.",
+          "Word-for-word phrasing loses the intended invitation and tone.": "단어별 직역은 의도한 권유의 의미와 분위기를 살리지 못합니다.",
+          "✓ Reviewed": "✓ 검수 완료",
+          "△ Needs review": "△ 검수 필요",
+          "Your project brief has been downloaded. No inquiry has been sent.": "요청서를 다운로드했습니다. 문의는 전송되지 않았습니다.",
+          "Please review and send the draft in your email app to info@penguinsgroup.com.vn. If no app opens, email your project details directly to this address.": "이메일 앱에서 초안을 확인하고 info@penguinsgroup.com.vn으로 보내 주세요. 앱이 열리지 않으면 이 주소로 프로젝트 내용을 직접 보내 주세요.",
+          "Project inquiry": "프로젝트 문의",
+          "Name": "성함",
+          "Email": "이메일",
+          "Company": "회사",
+          "Service": "서비스",
+          "Languages": "언어",
+          "Deadline": "납기",
+          "Details": "상세 정보"
+        }
+      }
+    </script>
+    <script src="/assets/main.js" defer></script>
+    <link rel="canonical" href="https://vnlocalization.com/ko/" />
+    <link rel="alternate" hreflang="en" href="https://vnlocalization.com/en/" />
+    <link rel="alternate" hreflang="vi" href="https://vnlocalization.com/vi/" />
+    <link rel="alternate" hreflang="zh-Hans" href="https://vnlocalization.com/zh/" />
+    <link rel="alternate" hreflang="ja" href="https://vnlocalization.com/ja/" />
+    <link rel="alternate" hreflang="ko" href="https://vnlocalization.com/ko/" />
+    <link rel="alternate" hreflang="x-default" href="https://vnlocalization.com/en/" />
+  </head>
+  <body class="home-page">
+    <a class="skip" href="#main">본문으로 이동</a>
+    <header>
+      <nav class="wrap" aria-label="주 메뉴">
+        <a href="/ko/" class="logo" aria-label="VNlocalization 홈"
+          ><img
+            class="crane-emblem"
+            src="/assets/crane-emblem.png"
+            alt=""
+            width="80"
+            height="40"
+          /><span class="brand-word">VNlocalization</span></a
+        ><button
+          class="menu"
+          aria-label="메뉴 열기"
+          aria-expanded="false"
+          aria-controls="navigation"
+        >
+          ☰
+        </button>
+        <details class="language-picker">
+          <summary aria-label="언어">
+            <span aria-hidden="true">◎</span> 한국어 <span aria-hidden="true">⌄</span>
+          </summary>
+          <div class="language-options" aria-label="언어">
+            <a href="/en/" lang="en" hreflang="en">EN</a
+            ><a href="/vi/" lang="vi" hreflang="vi">VI</a
+            ><a href="/zh/" lang="zh-Hans" hreflang="zh-Hans">中文</a
+            ><a href="/ja/" lang="ja" hreflang="ja">日本語</a
+            ><a href="/ko/" lang="ko" hreflang="ko" aria-current="true">한국어</a>
+          </div>
+        </details>
+        <div id="navigation" class="navlinks">
+          <a href="/ko/#services">서비스</a><a href="/ko/#quality">품질 관리</a
+          ><a href="/ko/#industries">분야</a><a href="/ko/about/">회사 소개</a
+          ><a class="btn" href="/ko/contact/">견적 요청 <span aria-hidden="true">↗</span></a>
+        </div>
+      </nav>
+    </header>
+    <main id="main">
+      <div class="wrap">
+        <section class="home-hero">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="dot"></span> 베트남어 언어 서비스 파트너</div>
+            <h1>
+              베트남어<br /><span>번역 및<br />현지화 서비스.</span>
+            </h1>
+            <p class="hero-services">번역 · 언어 QA · 영상 번역 및 자막 · 더빙</p>
+            <p class="hero-intro">
+              자연스러운 번역, 세심한 언어 검수, 읽기 편한 자막과 이야기를 전하는 목소리로 베트남
+              고객에게 다가가세요.
+            </p>
+            <div class="herobuttons">
+              <a class="btn" href="/ko/contact/">견적 요청 <span aria-hidden="true">↗</span></a
+              ><a class="hero-secondary" href="#services"
+                >서비스 살펴보기 <span aria-hidden="true">↓</span></a
+              >
+            </div>
+            <div class="hero-proof">
+              <span>베트남어 원어민의 이해</span><span>사람이 직접 검수</span
+              ><span>명확한 프로젝트 범위</span>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <div class="hero-collage">
+              <div class="hero-frame hero-film">
+                <div class="photo-crop photo-middle">
+                  <img
+                    src="/assets/language-services.png"
+                    alt="영상 타임라인에서 작업하는 자막 편집자 예시"
+                    width="2048"
+                    height="683"
+                    fetchpriority="high"
+                  />
+                </div>
+                <div class="hero-frame-caption">
+                  <span>영화 및 숏드라마</span
+                  ><strong lang="vi">Mỗi câu chuyện.<br />Một kết nối mới.</strong
+                  ><span class="film-subtitle" lang="vi">Mọi hành trình đều bắt đầu từ đây.</span>
+                </div>
+              </div>
+              <div class="hero-frame hero-voice">
+                <div class="photo-crop photo-right">
+                  <img
+                    src="/assets/language-services.png"
+                    alt="스튜디오 마이크 앞 베트남어 성우 예시"
+                    width="2048"
+                    height="683"
+                  />
+                </div>
+                <span class="collage-tag">더빙 및 보이스오버</span>
+              </div>
+              <div class="hero-language">
+                <span>EN → VI</span><strong lang="vi">Xin chào.</strong
+                ><span>베트남어 원어민의 이해</span>
+              </div>
+              <a class="hero-review" href="#examples"
+                ><span class="review-check">✓</span>
+                <div><strong>언어 검수</strong><span>의미를 살린 자연스러운 표현.</span></div>
+                <span>↗</span></a
+              >
+            </div>
+          </div>
+        </section>
+        <section class="section" id="services">
+          <div class="sectionhead">
+            <div>
+              <div class="eyebrow">제공 서비스</div>
+              <h2>네 가지 서비스.<br />하나의 베트남어 파트너.</h2>
+            </div>
+            <p>첫 번역부터 최종 음성 트랙까지, 프로젝트에 맞는 언어 서비스를 만나보세요.</p>
+          </div>
+          <div class="services">
+            <article class="service">
+              <div class="service-art art-localization" aria-hidden="true">
+                <div class="mini-browser">
+                  <i></i><i></i><i></i>
+                  <div>
+                    <span>ENGLISH → VIETNAMESE</span><b lang="vi">Khám phá<br />điều mới.</b
+                    ><em>EN → VI ↗</em>
+                  </div>
+                </div>
+                <span class="art-glyph">ă</span>
+              </div>
+              <div class="icon">A↔ă <span class="num">01</span></div>
+              <h3>번역 및<br />현지화</h3>
+              <p>
+                의미와 뉘앙스를 살리고 베트남 고객의 읽기, 플레이, 소통 방식에 맞게 디지털 콘텐츠를
+                조정합니다.
+              </p>
+              <a href="/ko/vietnamese-translation/">현지화 알아보기 <span>↗</span></a>
+            </article>
+            <article class="service">
+              <div class="service-art art-review" aria-hidden="true">
+                <div class="review-sheet">
+                  <span>LANGUAGE QA / 024</span><i></i><i></i>
+                  <div><del>Tiết kiệm tiến trình</del><strong>✓ Lưu tiến trình</strong></div>
+                  <i></i><b>✓</b>
+                </div>
+              </div>
+              <div class="icon">文✓ <span class="num">02</span></div>
+              <h3>언어<br />품질 보증</h3>
+              <p>용어, 문체, 일관성, 실제 맥락에서의 표현을 세밀하게 검토합니다.</p>
+              <a href="/ko/vietnamese-lqa/">LQA 알아보기 <span>↗</span></a>
+            </article>
+            <article class="service">
+              <div class="service-art art-photo">
+                <div class="photo-crop photo-middle">
+                  <img
+                    src="/assets/language-services.png"
+                    alt="영상 타임라인에서 작업하는 자막 편집자 예시"
+                    loading="lazy"
+                    width="2048"
+                    height="683"
+                  />
+                </div>
+                <span class="art-subtitle" lang="vi">Câu chuyện bắt đầu từ đây.</span>
+              </div>
+              <div class="icon">[ cc ] <span class="num">03</span></div>
+              <h3>영상 번역 및<br />자막</h3>
+              <p>
+                자연스러운 대사, 읽기 편한 자막, 이야기의 흐름에 맞는 타이밍으로 모든 장면을
+                전달합니다.
+              </p>
+              <a href="/ko/vietnamese-subtitling/">영상 번역 알아보기 <span>↗</span></a>
+            </article>
+            <article class="service">
+              <div class="service-art art-photo">
+                <div class="photo-crop photo-right">
+                  <img
+                    src="/assets/language-services.png"
+                    alt="스튜디오 마이크 앞 베트남어 성우 예시"
+                    loading="lazy"
+                    width="2048"
+                    height="683"
+                  />
+                </div>
+                <div class="art-wave" aria-hidden="true">▂ ▄ ▆ █ ▅ ▃ ▆ █ ▄ ▂</div>
+              </div>
+              <div class="icon">ıⅠıⅠı <span class="num">04</span></div>
+              <h3>더빙 및<br />보이스오버</h3>
+              <p>
+                드라마, 영상, 브랜드 콘텐츠를 생동감 있는 베트남어 목소리와 세심하게 검수한 음성으로
+                전달합니다.
+              </p>
+              <a href="/ko/vietnamese-dubbing/">음성 서비스 알아보기 <span>↗</span></a>
+            </article>
+          </div>
+        </section>
+        <section class="next-section" aria-labelledby="next-heading">
+          <div class="next-heading">
+            <div>
+              <div class="eyebrow">다음 도약을 위한 서비스</div>
+              <h2 id="next-heading">다음 이야기를.<br />베트남 고객에게.</h2>
+            </div>
+            <p>제품 출시부터 영화 공개까지, 콘텐츠에 맞는 언어를 제공합니다.</p>
+          </div>
+          <div class="next-cards">
+            <a href="/ko/vietnamese-translation/" class="next-card"
+              ><div class="photo-crop photo-left">
+                <img
+                  src="/assets/language-services.png"
+                  alt="디지털 콘텐츠를 검토하는 베트남어 번역가 예시"
+                  loading="lazy"
+                  width="2048"
+                  height="683"
+                />
+              </div>
+              <div class="next-card-text">
+                <span>디지털 콘텐츠</span>
+                <h3>웹사이트, 앱 및 게임</h3>
+                <p>다음 출시를 위한 번역과 언어 품질 관리.</p>
+                <b>현지화 알아보기 ↗</b>
+              </div></a
+            ><a href="/ko/vietnamese-subtitling/" class="next-card"
+              ><div class="photo-crop photo-middle">
+                <img
+                  src="/assets/language-services.png"
+                  alt="영상 타임라인에서 작업하는 자막 편집자 예시"
+                  loading="lazy"
+                  width="2048"
+                  height="683"
+                />
+              </div>
+              <div class="next-card-text">
+                <span>영화 및 숏드라마</span>
+                <h3>마음을 사로잡는 이야기</h3>
+                <p>모든 장면을 전달하는 영상 번역과 자막.</p>
+                <b>영상 번역 알아보기 ↗</b>
+              </div></a
+            ><a href="/ko/vietnamese-dubbing/" class="next-card"
+              ><div class="photo-crop photo-right">
+                <img
+                  src="/assets/language-services.png"
+                  alt="스튜디오 마이크 앞 베트남어 성우 예시"
+                  loading="lazy"
+                  width="2048"
+                  height="683"
+                />
+              </div>
+              <div class="next-card-text">
+                <span>더빙 및 음성</span>
+                <h3>사람을 잇는 목소리</h3>
+                <p>베트남어 대사, 내레이션 및 음성 검수.</p>
+                <b>음성 서비스 알아보기 ↗</b>
+              </div></a
+            >
+          </div>
+        </section>
+        <section class="examples-section" id="examples">
+          <div class="examples-copy">
+            <div class="eyebrow">언어 작업 공간</div>
+            <h2>차이를 확인하세요.<br />세부 사항을 살펴보세요.</h2>
+            <p>인터랙티브 예시로 번역, 언어 검토, 자막 및 음성 준비 과정을 살펴보세요.</p>
+            <div class="example-note">
+              <span>↗</span>
+              <p>설명용 예시 · 서비스를 선택해 살펴보세요</p>
+            </div>
+          </div>
+          <div class="workbench">
+            <div class="bench-bar">
+              <div><span class="bench-dot"></span> 언어 작업 공간</div>
+              <span class="bench-languages">EN → VI</span>
+            </div>
+            <div class="bench-tabs" role="tablist" aria-label="서비스 살펴보기">
+              <button
+                id="tab-localization"
+                role="tab"
+                aria-selected="true"
+                aria-controls="panel-localization"
+                data-demo="localization"
+              >
+                현지화</button
+              ><button
+                id="tab-lqa"
+                role="tab"
+                aria-selected="false"
+                aria-controls="panel-lqa"
+                tabindex="-1"
+                data-demo="lqa"
+              >
+                LQA</button
+              ><button
+                id="tab-subtitles"
+                role="tab"
+                aria-selected="false"
+                aria-controls="panel-subtitles"
+                tabindex="-1"
+                data-demo="subtitles"
+              >
+                자막</button
+              ><button
+                id="tab-dubbing"
+                role="tab"
+                aria-selected="false"
+                aria-controls="panel-dubbing"
+                tabindex="-1"
+                data-demo="dubbing"
+              >
+                더빙
+              </button>
+            </div>
+            <section
+              class="bench-panel"
+              id="panel-localization"
+              role="tabpanel"
+              aria-labelledby="tab-localization"
+              tabindex="0"
+            >
+              <div class="demo-caption">
+                <span>01 / 맥락 속의 언어</span><span class="demo-pill">웹사이트 및 앱</span>
+              </div>
+              <div class="app-example">
+                <div class="app-side">
+                  <span class="app-emblem" aria-hidden="true">✳</span><i></i><i></i><i></i>
+                </div>
+                <div class="app-screen">
+                  <div class="app-nav"><b>STUDIO / 01</b><span aria-hidden="true">○ ○ ○</span></div>
+                  <div class="app-graphic" aria-hidden="true">
+                    <div class="shape-one"></div>
+                    <div class="shape-two"></div>
+                    <span>ă</span>
+                  </div>
+                  <div class="app-text">
+                    <small>영어</small><span lang="en">Make room for new ideas.</span>
+                    <div class="app-translated">
+                      <small>베트남어</small><strong lang="vi">Đón những ý tưởng mới.</strong
+                      ><span lang="vi" class="fake-button">Bắt đầu khám phá ↗</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="bench-outcome">
+                <span class="check-round" aria-hidden="true">✓</span>
+                <p>의미를 살린 자연스러운 표현.</p>
+              </div>
+              <a class="bench-link" href="/ko/vietnamese-translation/"
+                >현지화 알아보기 <span>↗</span></a
+              >
+            </section>
+            <section
+              class="bench-panel"
+              id="panel-lqa"
+              role="tabpanel"
+              aria-labelledby="tab-lqa"
+              tabindex="0"
+              hidden
+            >
+              <div class="demo-caption">
+                <span>02 / 모든 디테일을 꼼꼼하게</span><span class="demo-pill">언어 검수</span>
+              </div>
+              <div class="issue-example">
+                <div class="issue-head">
+                  <span class="issue-id">문자열 / 024</span><span class="issue-category">용어</span>
+                </div>
+                <small>원문</small>
+                <p lang="en">Save your progress.</p>
+                <div class="issue-before">
+                  <span>검수 전</span><del lang="vi">Tiết kiệm tiến trình của bạn.</del>
+                </div>
+                <div class="issue-after">
+                  <span>검수 후</span><strong lang="vi">Lưu tiến trình của bạn.</strong>
+                </div>
+                <div class="issue-comment">
+                  <span aria-hidden="true">↳</span>
+                  <p>이 문맥에서 “save”는 비용 절약이 아니라 진행 상황 저장을 뜻합니다.</p>
+                </div>
+              </div>
+              <div class="bench-outcome">
+                <span class="check-round" aria-hidden="true">✓</span>
+                <p>명확한 오류 보고와 구체적인 수정.</p>
+              </div>
+              <a class="bench-link" href="/ko/vietnamese-lqa/">LQA 알아보기 <span>↗</span></a>
+            </section>
+            <section
+              class="bench-panel"
+              id="panel-subtitles"
+              role="tabpanel"
+              aria-labelledby="tab-subtitles"
+              tabindex="0"
+              hidden
+            >
+              <div class="demo-caption">
+                <span>03 / 자연스러운 이야기의 흐름</span
+                ><span class="demo-pill">영화 및 숏드라마</span>
+              </div>
+              <div class="subtitle-example">
+                <div class="scene-art" aria-hidden="true">
+                  <div class="scene-sun"></div>
+                  <div class="scene-hill hill-one"></div>
+                  <div class="scene-hill hill-two"></div>
+                  <div class="scene-window"></div>
+                </div>
+                <span class="scene-label">장면 / 01</span>
+                <p class="scene-subtitle" id="scene-subtitle" lang="vi" aria-live="polite">
+                  Mọi hành trình đều bắt đầu từ đây.
+                </p>
+              </div>
+              <div class="cue-controls">
+                <label for="cue-range">자막 구간 미리보기</label
+                ><output id="cue-time" for="cue-range">00:01 / 00:09</output
+                ><input
+                  id="cue-range"
+                  type="range"
+                  min="1"
+                  max="3"
+                  step="1"
+                  value="1"
+                  aria-controls="scene-subtitle"
+                />
+              </div>
+              <div class="bench-outcome">
+                <span class="check-round" aria-hidden="true">✓</span>
+                <p>자연스러운 대사와 읽기 편한 타이밍.</p>
+              </div>
+              <a class="bench-link" href="/ko/vietnamese-subtitling/"
+                >영상 번역 알아보기 <span>↗</span></a
+              >
+            </section>
+            <section
+              class="bench-panel"
+              id="panel-dubbing"
+              role="tabpanel"
+              aria-labelledby="tab-dubbing"
+              tabindex="0"
+              hidden
+            >
+              <div class="demo-caption">
+                <span>04 / 이야기에 목소리를 더하다</span
+                ><span class="demo-pill">더빙 및 보이스오버</span>
+              </div>
+              <div class="voice-example">
+                <div class="voice-script">
+                  <small>베트남어 대본</small>
+                  <p lang="vi">Câu chuyện của chúng ta<br />bắt đầu từ hôm nay.</p>
+                </div>
+                <div class="track-row track-a">
+                  <span>음성 A</span>
+                  <div class="track-wave" aria-hidden="true"></div>
+                  <span>00:04</span>
+                </div>
+                <div class="track-row track-b">
+                  <span>음성 B</span>
+                  <div class="track-wave" aria-hidden="true"></div>
+                  <span>00:06</span>
+                </div>
+                <div class="track-ruler">
+                  <span>00:00</span><span>00:05</span><span>00:10</span>
+                </div>
+                <p class="voice-note">시각적 예시 · 음성 재생 없음</p>
+              </div>
+              <div class="bench-outcome">
+                <span class="check-round" aria-hidden="true">✓</span>
+                <p>대본, 연기 및 음성 검수.</p>
+              </div>
+              <a class="bench-link" href="/ko/vietnamese-dubbing/"
+                >음성 서비스 알아보기 <span>↗</span></a
+              >
+            </section>
+            <div class="bench-foot">
+              <span class="dot"></span><span>설명용 예시 · 서비스를 선택해 살펴보세요</span>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="wrap">
+        <section class="section" id="industries">
+          <div class="sectionhead">
+            <div>
+              <div class="eyebrow">매체에 맞춘 서비스</div>
+              <h2>여러분의 콘텐츠를 위한 서비스.</h2>
+            </div>
+            <p>고객이 제품을 경험하는 방식에 맞게 언어를 다듬습니다.</p>
+          </div>
+          <div class="industries">
+            <article class="industry">
+              <span class="bigicon">✣</span><small>플레이</small>
+              <h3>게임 및 인터랙티브 콘텐츠</h3>
+              <p>대사, UI 텍스트, 플레이어 커뮤니케이션 및 맥락 기반 언어 검수.</p>
+            </article>
+            <article class="industry">
+              <span class="bigicon">▷</span><small>시청 및 청취</small>
+              <h3>영화 및 숏드라마</h3>
+              <p>자막, 대사 각색, 베트남어 더빙 및 음성 품질 검수.</p>
+            </article>
+            <article class="industry">
+              <span class="bigicon">⌘</span><small>탐색</small>
+              <h3>디지털 및 브랜드</h3>
+              <p>현지 시장에 맞춘 웹사이트, 앱, 제품 콘텐츠 및 메시지.</p>
+            </article>
+          </div>
+        </section>
+      </div>
+      <section class="quality section" id="quality">
+        <div class="wrap qualitygrid">
+          <div>
+            <div class="eyebrow">디테일이 만드는 품질</div>
+            <h2>정확함에서 시작해,<br />자연스러움을 완성합니다.</h2>
+            <p>
+              정확한 번역도 상황에 어울리지 않을 수 있습니다. 개별 단어를 넘어 의도, 경험, 그리고
+              읽는 사람까지 고려합니다.
+            </p>
+            <ul class="ticks">
+              <li>베트남어 원어민 검수</li>
+              <li>용어 및 스타일 가이드 준수</li>
+              <li>맥락 검토 및 구체적인 오류 보고</li>
+              <li>최종 납품 전 수정 사항 확인</li>
+            </ul>
+            <a class="btn light" href="/ko/vietnamese-lqa/">QA 방식 살펴보기 <span>↗</span></a>
+          </div>
+          <div>
+            <div class="qa-demo">
+              <div class="qa-top"><span>VNLOCALIZATION / 언어 검수</span><span>EN → VI</span></div>
+              <div class="qa-body">
+                <div class="q-label">원문</div>
+                <p class="source">“Jump back into the action.”</p>
+                <div class="toggle" role="group" aria-label="번역 비교">
+                  <button data-version="literal">직역</button
+                  ><button class="active" data-version="reviewed">원어민 검수 후 ✓</button>
+                </div>
+                <div class="translation">
+                  <div class="q-label" id="review-label">자연스러움 · 맥락 반영</div>
+                  <strong id="translation" lang="vi" aria-live="polite">Trở lại cuộc chiến!</strong
+                  ><span class="dialogcopy" id="review-note"
+                    >액션 게임에 어울리는 활기차고 자연스러운 표현.</span
+                  >
+                </div>
+                <div class="status">
+                  <span>문체 및 문화 적합성</span
+                  ><span class="badge" id="review-badge">✓ 검수 완료</span>
+                </div>
+              </div>
+            </div>
+            <p class="qa-caption">
+              현지화 이해를 돕는 예시입니다. 최종 표현은 맥락에 따라 달라집니다.
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="wrap">
+        <section class="section process" id="process">
+          <div class="sectionhead">
+            <div>
+              <div class="eyebrow">요청부터 납품까지</div>
+              <h2>요청사항부터<br />최종 납품까지.</h2>
+            </div>
+            <p>실용적인 프로세스, 공유된 요구사항, 단계별 명확한 소통.</p>
+          </div>
+          <div class="steps">
+            <div class="step">
+              <strong>01 / 요구 파악</strong>
+              <h3>이야기를 들려주세요</h3>
+              <p>콘텐츠, 대상 고객, 언어 및 일정을 공유하고 작업 범위와 납품물을 합의합니다.</p>
+            </div>
+            <div class="step">
+              <strong>02 / 방향 합의</strong>
+              <h3>방향 설정</h3>
+              <p>용어, 문체, 기술 요건 및 필요한 샘플을 합의합니다.</p>
+            </div>
+            <div class="step">
+              <strong>03 / 제작 및 검수</strong>
+              <h3>콘텐츠 구현</h3>
+              <p>번역, 각색 또는 녹음 후 합의된 품질 기준에 따라 검수합니다.</p>
+            </div>
+            <div class="step">
+              <strong>04 / 납품</strong>
+              <h3>고객에게 선보일 준비</h3>
+              <p>합의한 파일을 전달하고 피드백을 검토하며 정해진 범위 내에서 수정합니다.</p>
+            </div>
+          </div>
+        </section>
+        <section class="aboutband">
+          <div class="eyebrow">원어민 전문성 / 실무 중심 납품</div>
+          <h2>베트남어 전문성.<br />실무 경험을 바탕으로.</h2>
+          <p>
+            베트남어 QA, 텍스트·음성 검수, 영어→베트남어 숏드라마 자막 및 베트남어 녹음 경험을 갖춘
+            팀입니다. 새 프로젝트는 명확한 범위 설정과 적절한 역량 확인부터 시작합니다.
+          </p>
+          <a class="textlink" href="/ko/about/">언어 서비스 파트너와 상담하기 ↗</a>
+        </section>
+        <section class="faq">
+          <h2>자주 묻는 질문.</h2>
+          <details>
+            <summary>주력 언어는 무엇인가요?</summary>
+            <p>
+              영어→베트남어 현지화와 베트남어 언어 검수를 중심으로 합니다. 다른 언어쌍은 프로젝트
+              요구사항과 적합한 언어 전문가 확보 여부에 따라 협의합니다.
+            </p>
+          </details>
+          <details>
+            <summary>샘플이나 파일럿으로 시작할 수 있나요?</summary>
+            <p>
+              네. 대표 샘플과 검수 기준을 보내 주시면 시작 전에 파일럿 범위, 일정 및 비용을 합의할
+              수 있습니다.
+            </p>
+          </details>
+          <details>
+            <summary>견적에 어떤 정보가 필요한가요?</summary>
+            <p>
+              서비스, 원문·목표 언어, 단어 수 또는 영상 길이, 파일 형식, 납기 및 검수 요건을 알려
+              주세요. 더빙은 목소리 수, 싱크 수준, 음성 납품 사양도 필요합니다.
+            </p>
+          </details>
+          <details>
+            <summary>기존 번역물도 작업할 수 있나요?</summary>
+            <p>
+              네. 기존 콘텐츠의 교정, 기계번역 포스트에디팅 또는 LQA를 진행할 수 있습니다. 원문,
+              번역문, 맥락, 용어집이나 스타일 가이드를 제공해 주세요.
+            </p>
+          </details>
+        </section>
+        <section class="cta">
+          <div>
+            <h2>베트남 고객과<br />만날 준비가 되셨나요?</h2>
+            <p>신제품 출시, 숏드라마, 장기 언어 프로젝트를 준비하시나요?</p>
+          </div>
+          <button class="btn quote">상담 시작하기 <span class="arrow">↗</span></button>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="wrap">
+        <div class="footertop">
+          <div class="footer-brand">
+            <a href="/ko/" class="logo" aria-label="VNlocalization 홈"
+              ><img
+                class="crane-emblem"
+                src="/assets/crane-emblem.png"
+                alt=""
+                width="80"
+                height="40"
+              /><span class="brand-word">VNlocalization</span></a
+            >
+            <p class="footerdesc">
+              베트남어 전문성, 글로벌 시각.<br />번역, 품질 보증, 자막,<br />그리고 사람을 잇는
+              목소리.
+            </p>
+          </div>
+          <div class="footer-contact">
+            <b>연락처</b>
+            <div class="footer-company"><span>회사</span><strong>PENGUINS GROUP</strong></div>
+            <a class="footer-phone" href="tel:+84961003512">+84 96 100 35 12</a>
+            <div class="footer-channel">
+              <a href="tel:+84961003512">전화</a><span> / </span
+              ><a href="https://wa.me/84961003512" target="_blank" rel="noopener noreferrer"
+                >WhatsApp ↗</a
+              >
+            </div>
+            <dl>
+              <div>
+                <dt>Kakaotalk ID</dt>
+                <dd>leomasley</dd>
+              </div>
+              <div>
+                <dt>Line ID</dt>
+                <dd>leomasley</dd>
+              </div>
+              <div>
+                <dt>Wechat ID</dt>
+                <dd>leomasley</dd>
+              </div>
+              <div>
+                <dt>Dingtalk</dt>
+                <dd>penguinsgroup</dd>
+              </div>
+            </dl>
+            <div class="footer-emails">
+              <span>이메일</span
+              ><a class="footer-email" href="mailto:mrsat0812@gmail.com">mrsat0812@gmail.com</a
+              ><a class="footer-email" href="mailto:info@penguinsgroup.com.vn"
+                >info@penguinsgroup.com.vn</a
+              >
+            </div>
+          </div>
+          <div class="footerlinks">
+            <div>
+              <b>언어 서비스</b><a href="/ko/vietnamese-translation/">번역 및 현지화</a
+              ><a href="/ko/vietnamese-lqa/">언어 품질 보증</a
+              ><a href="/ko/vietnamese-subtitling/">영상 번역 및 자막</a
+              ><a href="/ko/vietnamese-dubbing/">더빙 및 보이스오버</a
+              ><a href="/ko/about/">회사 소개</a><a href="/ko/contact/">문의하기 ↗</a
+              ><a href="/ko/privacy/">개인정보 안내</a>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <span
+            >© 2026 vnlocalization.com thuộc
+            <a href="https://penguins.com.vn" target="_blank" rel="noopener noreferrer"
+              >PENGUINSGROUP.COM.VN</a
+            ></span
+          ><span>베트남 후에를 기반으로 글로벌 팀과 협력합니다</span
+          ><span class="image-note"
+            >AI로 제작한 서비스 예시 이미지이며 실제 팀 사진이 아닙니다.</span
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

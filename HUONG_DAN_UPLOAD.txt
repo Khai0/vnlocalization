@@ -1,0 +1,32 @@
+VNLOCALIZATION.COM — HUONG DAN DUA WEBSITE LEN HOSTING
+
+Đây là website tĩnh HTML/CSS/JavaScript, gồm 5 ngôn ngữ. Không cần Node.js hoặc cơ sở dữ liệu trên hosting. Đây không phải theme WordPress.
+
+Bản đóng gói này được cấu hình URL SEO cho https://vnlocalization.com. Nó không đăng ký tên miền hoặc thay đổi DNS. Chỉ sử dụng tên miền sau khi bạn có quyền quản lý.
+
+1. Chuẩn bị tên miền vnlocalization.com và hosting hỗ trợ website tĩnh, có HTTPS.
+2. Thêm tên miền vào hosting, xác định đúng thư mục gốc của tên miền (document root). Với tên miền chính trên cPanel thường là public_html; tên miền bổ sung có thể dùng thư mục khác.
+3. Nếu thư mục đang có website, sao lưu trước và dùng đúng thư mục dành riêng cho website mới. Không ghi đè website Penguins Group.
+4. Trong File Manager, mở đúng document root, chọn Upload và tải file ZIP này lên.
+5. Chọn file ZIP rồi Extract vào document root. index.html, assets/, en/, vi/, zh/, ja/, ko/ phải nằm trực tiếp trong document root, không nằm thêm trong thư mục vnlocalization-website/.
+6. Xóa file ZIP trên hosting sau khi giải nén. Có thể xóa file HUONG_DAN_UPLOAD.txt trên hosting.
+7. Trỏ DNS theo chính xác hướng dẫn từ nhà cung cấp hosting; không đoán IP hoặc nameserver. Bật HTTPS theo công cụ hosting cung cấp.
+8. Mở https://vnlocalization.com để kiểm tra. Trang mặc định là tiếng Anh. Bản tiếng Việt tại /vi/; các bản khác tại /en/, /zh/, /ja/, /ko/.
+9. Kiểm tra menu ngôn ngữ, từng trang dịch vụ, 4 tab minh họa, thanh kéo phụ đề và biểu mẫu.
+10. robots.txt và sitemap.xml đã dùng tên miền dự kiến. Nếu dùng tên miền khác, thay https://vnlocalization.com trong các tệp HTML, robots.txt và sitemap.xml trước khi triển khai chính thức.
+
+LƯU Ý CHỨC NĂNG
+- Chuẩn bị email: mở ứng dụng email để người dùng kiểm tra và tự gửi; website không tự gửi hoặc lưu khách hàng vào cơ sở dữ liệu.
+- Email hiện tại: info@penguinsgroup.com.vn. Số điện thoại: +84 96 100 3512. Chưa tạo hộp thư mới thuộc vnlocalization.com.
+- Dubbing là ví dụ hình ảnh, chưa có âm thanh mẫu.
+- Website tải font từ Google Fonts; nếu không tải được sẽ dùng font hệ thống.
+- Chức năng và liên kết đã được kiểm tra tự động; chưa kiểm tra trực quan trên trình duyệt của hosting đích.
+- Bản xuất này không mang cơ chế xem riêng của bản ChatGPT. Khi upload lên hosting công khai, website sẽ theo quyền truy cập của hosting đó.
+- WordPress: không upload ZIP này vào Appearance > Themes. Có thể phục vụ trên hosting tĩnh riêng hoặc cần chuyển thành theme nếu muốn quản lý qua WordPress.
+- Gói được thiết kế đặt tại gốc tên miền, không phải một thư mục con như /website/.
+
+TÀI LIỆU CPANEL
+https://docs.cpanel.net/cpanel/files/file-manager/110/
+https://support.cpanel.net/hc/en-us/articles/360055141854-Using-File-Manager-To-Extract-Files
+
+Nội dung web gồm HTML, CSS và JS có thể chỉnh sửa trực tiếp bằng trình soạn thảo mã. Khi cập nhật nhiều ngôn ngữ, chỉnh đầy đủ các phiên bản tương ứng.
